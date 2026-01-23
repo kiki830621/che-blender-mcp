@@ -1,0 +1,25 @@
+{
+  "manifest_version": "0.3",
+  "name": "che-blender-mcp",
+  "version": "0.1.0",
+  "description": "MCP Server for Blender integration - execute scripts, capture renders, and control scenes",
+  "author": {
+    "name": "Che Cheng"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/kiki830621/che-blender-mcp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kiki830621/che-blender-mcp"
+  },
+  "server": {
+    "type": "binary",
+    "entry_point": "server/CheBlenderMCP",
+    "mcp_config": {
+      "command": "$DIRNAME/server/CheBlenderMCP",
+      "args": [],
+      "env": {}
+    }
+  },
+  "keywords": ["blender", "3d", "rendering", "graphics"]
+}
