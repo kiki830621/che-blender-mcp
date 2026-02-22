@@ -6,3 +6,7 @@ dist/
 *.egg-info/
 .pytest_cache/
 .mypy_cache/
+
+# Build artifacts (distributed via GitHub Release)
+mcpb/server/*
+!mcpb/server/.gitkeep
